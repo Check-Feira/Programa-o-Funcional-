@@ -134,21 +134,4 @@ const handleDeleteItem = async (itemId: string) => {
 
 
 
-## 🚀 Deploy
-Para instalar as dependências e rodar o projeto, siga os passos abaixo:
 
-1️⃣ Acesse a pasta do projeto
-
-```bash
-  cd web
-```
-2️⃣ Instale as dependências
-
-```bash
-  npm  i
-
-```
-3️⃣ Inicie o servidor
-```bash
- npm run start     
-```
