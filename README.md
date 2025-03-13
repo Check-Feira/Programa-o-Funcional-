@@ -1,13 +1,29 @@
 # 📘 Programação Funcional no React com TypeScript
 
-Este documento explica como aplicar conceitos de **programação funcional** em um projeto React com TypeScript.
-Abaixo estão os principais conceitos abordados, exemplos de código e como encontrá-los em seu projeto.
+Este documento explica como  esta aplicado os  conceitos de **Programação funcional**, nesse  projeto React com TypeScript.
+Abaixo estão os seus objetivos, requisitos, forma de instalar, rodar e  claro os principais conceitos abordados como:
 
 
 - ✔ Funções Lambda (Arrow Functions)
 - ✔ List Comprehension (map)
 - ✔ Closures
 - ✔ Funções de Alta Ordem (HOFs)  
+
+## Objetivos
+O presente projeto tem como objetivo o desenvolvimento de uma solução para o controle de fluxo de estoque, na qual visa auxiliar na logística de entrada e saída dos produtos e também na disponibilidade das informações armazenadas. Mediante uma análise junto a comunidade local foi possível identificar uma fragilidade na gestão que usualmente é feita através de planilhas impressas e contagem manual, o que por vezes gera divergência e um retrabalho para atualização consistente das informações reais.
+
+## Requisitos.
+#### Requisitos funcionais
+- RF01 – O sistema deve cadastrar novo produto
+- RF02 – O sistema deve buscar produto
+- RF03 – O sistema deve alterar quantidade de produto
+- RF04 – O sistema deve gerar relatórios em períodos determinados pelo usuário
+#### Requisitos não-funcionais
+- RNF01 – O sistema deve ter um tempo de resposta na busca ao produto de 5 segundos
+- RNF02 – O sistema deve permitir registro de novos usuários
+- RNF03 – O sistema deve atender com bom desempenho acessos simultâneos
+- RNF04 – O sistema deve possuir um design responsivo
+
 
 ## 🚀 Deploy
 Para instalar as dependências e rodar o projeto, siga os passos abaixo:
@@ -117,3 +133,22 @@ const handleDeleteItem = async (itemId: string) => {
 
 
 
+
+## 🚀 Deploy
+Para instalar as dependências e rodar o projeto, siga os passos abaixo:
+
+1️⃣ Acesse a pasta do projeto
+
+```bash
+  cd web
+```
+2️⃣ Instale as dependências
+
+```bash
+  npm  i
+
+```
+3️⃣ Inicie o servidor
+```bash
+ npm run start     
+```
