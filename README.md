@@ -1,7 +1,32 @@
-# 📘 Functional Programming in React
+# 📘 Programação Funcional no React com TypeScript
 
 Este documento explica como aplicar conceitos de **programação funcional** em um projeto React com TypeScript.
 Abaixo estão os principais conceitos abordados, exemplos de código e como encontrá-los em seu projeto.
+
+
+- ✔ Funções Lambda (Arrow Functions)
+- ✔ List Comprehension (map)
+- ✔ Closures
+- ✔ Funções de Alta Ordem (HOFs)  
+
+## 🚀 Deploy
+Para instalar as dependências e rodar o projeto, siga os passos abaixo:
+
+1️⃣ Acesse a pasta do projeto
+
+```bash
+  cd web
+```
+2️⃣ Instale as dependências
+
+```bash
+  npm  i
+
+```
+3️⃣ Inicie o servidor
+```bash
+ npm  start     
+```
 
 ## 📌 1. Função Lambda (Arrow Function)
 Funções **lambda** são funções anônimas escritas com `=>` (arrow function).
@@ -22,7 +47,7 @@ Em React, utilizamos `.map()` para percorrer arrays e renderizar elementos dinam
 
 ### 📍 Como verificar no projeto:
 - Verificar se listas são renderizadas com `.map()`.
-- Dentro do componente WishList, utilizamos .map() para iterar sobre os itens e renderizar uma tabela.
+- Dentro do componente, [ WishList.tsx](https://github.com/Check-Feira/CheckFeira/blob/Ingrid/web/src/Components/WishList/WishList.tsx). utilizamos .map() para iterar sobre os itens e renderizar uma tabela.
 
 ### 🔹 Exemplo:
 ```tsx
@@ -88,7 +113,7 @@ const handleDeleteItem = async (itemId: string) => {
 ```
 ---
 
-
+- Todas essas funções de exemplos podem sem encontradas no arquivo  [ WishList.tsx](https://github.com/Check-Feira/CheckFeira/blob/Ingrid/web/src/Components/WishList/WishList.tsx). 
 
 
 
