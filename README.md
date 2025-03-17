@@ -94,18 +94,20 @@ Em React, utilizamos `.map()` para percorrer arrays e renderizar elementos dinam
 Uma **closure** ocorre quando uma função "lembra" o escopo onde foi criada, mesmo após esse escopo ter sido finalizado.
 
 ### 📍 Como verificar no projeto:
-- Buscar por funções que retornam outras funções.
+- Buscar por funções que retornam outras funções ou que acessam variáveis externas ao seu escopo.
 
 ### 🔹 Exemplo:
 ```tsx
-const getWishListItems = async () => {
-  try {
-    const response = await api.getWishList();
-    setItems(response);
-  } catch (error) {
-    console.error("Error fetching wishlist:", error);
-  }
+const handleNameChange = (e: ChangeEvent<HTMLInputElement>) => {
+  setNewProduct({ ...newProduct, name: e.target.value });
 };
+
+const handlePriceChange = (e: ChangeEvent<HTMLInputElement>) => {
+  setNewProduct({ ...newProduct, price: parseFloat(e.target.value) });
+};
+
+const handleCloseModal = () => setShowModal(false);
+const handleShowModal = () => setShowModal(true); 
 ```
 ---
 
