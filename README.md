@@ -61,7 +61,7 @@ Em React, utilizamos `.map()` para percorrer arrays e renderizar elementos dinam
 
 ### 📍 Como verificar no projeto:
 - Verificar se listas são renderizadas com `.map()`.
-- Dentro do componente, [ WishList.tsx](https://github.com/Check-Feira/CheckFeira/blob/Ingrid/web/src/Components/WishList/WishList.tsx). utilizamos .map() para iterar sobre os itens e renderizar uma tabela.
+- Dentro do componente, [ WishList.tsx](https://github.com/Check-Feira/Programa-o-Funcional-/blob/main/web/src/Components/WishList/WishList.tsx). utilizamos .map() para iterar sobre os itens e renderizar uma tabela.
 
 ### 🔹 Exemplo:
 ```tsx
