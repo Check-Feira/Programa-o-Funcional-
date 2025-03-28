@@ -17,12 +17,10 @@ O presente projeto tem como objetivo o desenvolvimento de uma solução para o c
 - RF01 – O sistema deve cadastrar novo produto
 - RF02 – O sistema deve buscar produto
 - RF03 – O sistema deve alterar quantidade de produto
-- RF04 – O sistema deve gerar relatórios em períodos determinados pelo usuário
 #### Requisitos não-funcionais
 - RNF01 – O sistema deve ter um tempo de resposta na busca ao produto de 5 segundos
-- RNF02 – O sistema deve permitir registro de novos usuários
 - RNF03 – O sistema deve atender com bom desempenho acessos simultâneos
-- RNF04 – O sistema deve possuir um design responsivo
+- RNF02 – O sistema deve possuir um design responsivo
 
 
 ## 🚀 Deploy
