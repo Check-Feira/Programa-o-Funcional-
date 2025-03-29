@@ -19,8 +19,8 @@ O presente projeto tem como objetivo o desenvolvimento de uma solução para o c
 - RF03 – O sistema deve alterar quantidade de produto
 #### Requisitos não-funcionais
 - RNF01 – O sistema deve ter um tempo de resposta na busca ao produto de 5 segundos
-- RNF03 – O sistema deve atender com bom desempenho acessos simultâneos
-- RNF02 – O sistema deve possuir um design responsivo
+- RNF02 – O sistema deve atender com bom desempenho acessos simultâneos
+- RNF03 – O sistema deve possuir um design responsivo
 
 
 ## 🚀 Deploy
