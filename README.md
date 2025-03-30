@@ -148,7 +148,7 @@ const handleDeleteItem = async (itemId: string) => {
 
 - Todas essas funções de exemplos podem sem encontradas no arquivo  [ WishList.tsx](https://github.com/Check-Feira/Programa-o-Funcional-/blob/main/web/src/Components/WishList/WishList.tsx).
 
-### 🌐 Links
+## 🌐 Links
 - [Projeto com ferramentas em nuvem | Hospedado na Vercel](https://github.com/Check-Feira/CheckFeira)
 - [Projeto web](https://github.com/drewcosta/Atividade-desenvolvimento-web)
 - [API documentada](https://github.com/drewcosta/wishlist-api)
