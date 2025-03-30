@@ -26,20 +26,25 @@ O presente projeto tem como objetivo o desenvolvimento de uma solução para o c
 ## 🚀 Deploy
 Para instalar as dependências e rodar o projeto, siga os passos abaixo:
 
-1️⃣ Acesse a pasta do projeto
+1️⃣ Clone o projeto
+
+```bash
+  git clone https://github.com/Check-Feira/Programa-o-Funcional-.git
+```
+2️⃣ Acesse a pasta projeto
 
 ```bash
   cd web
 ```
-2️⃣ Instale as dependências
+3️⃣ Instale as dependências
 
 ```bash
-  npm  i
+  npm  install
 
 ```
-3️⃣ Inicie o servidor
+4️⃣ Inicie o servidor
 ```bash
- npm  start     
+ npm run start     
 ```
 
 ## 📌 1. Função Lambda (Arrow Function)
@@ -47,6 +52,9 @@ Funções **lambda** são funções anônimas escritas com `=>` (arrow function)
 
 ### 📍 Como verificar no projeto:
 - Procurar por funções anônimas: `const func = () => {...}`
+
+### 🔎 Referência:
+- [mdn web docs](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 ### 🔹 Exemplo:
 ```tsx
@@ -62,6 +70,9 @@ Em React, utilizamos `.map()` para percorrer arrays e renderizar elementos dinam
 ### 📍 Como verificar no projeto:
 - Verificar se listas são renderizadas com `.map()`.
 - Dentro do componente, [ WishList.tsx](https://github.com/Check-Feira/Programa-o-Funcional-/blob/main/web/src/Components/WishList/WishList.tsx). utilizamos .map() para iterar sobre os itens e renderizar uma tabela.
+
+### 🔎 Referência:
+- [mdn web docs](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 ### 🔹 Exemplo:
 ```tsx
@@ -94,6 +105,9 @@ Uma **closure** ocorre quando uma função "lembra" o escopo onde foi criada, me
 ### 📍 Como verificar no projeto:
 - Buscar por funções que retornam outras funções ou que acessam variáveis externas ao seu escopo.
 
+### 🔎 Referência:
+- [mdn web docs](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures)
+
 ### 🔹 Exemplo:
 ```tsx
 const handleNameChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -113,7 +127,10 @@ const handleShowModal = () => setShowModal(true);
 Uma **função de alta ordem** recebe outra função como argumento ou retorna outra função.
 
 ### 📍 Como verificar no projeto:
-`.O código utiliza funções de alta ordem como .map(), .filter() e .reduce(), além de callbacks para manipulação de eventos:
+- O código utiliza funções de alta ordem como .map(), .filter() e .reduce(), além de callbacks para manipulação de eventos:
+
+### 🔎 Referência:
+- [alura](https://www.alura.com.br/artigos/high-order-functions?srsltid=AfmBOorggF5bvVZwN1GR6Q4uMkyXdWfW114sXmfn7pzWpblSzTpIXk3r)
 
 ### 🔹 Exemplo com HOC (Higher Order Component):
 ```tsx
